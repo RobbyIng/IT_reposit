@@ -1,0 +1,21 @@
+.greenBlock{
+    max-width: 232px;
+    background-color: rgb(222, 242, 229);
+    margin: 150px auto;
+    border-radius: 5px;
+    padding: 20px;
+}
+blockquote {
+    margin: 10px;
+    font-style: italic;
+    line-height: 0.9;
+    font-size: 24px;
+ }
+.title{
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 14px;
+    color:rgb(18, 223, 238);
+    font-family: cursive;
+}
