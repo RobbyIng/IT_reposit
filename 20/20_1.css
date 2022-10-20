@@ -1,0 +1,38 @@
+.container {   
+    display: flex;
+    position: relative;
+    min-width: 50px;
+    margin: 60px auto;
+    background-color: #4DD0E2;
+    padding: 10px;
+ }
+  .block {
+     background-color: white;
+     height: 130px;
+     min-width: 1px;
+     justify-content: space-between;
+ }
+ .b1 {
+   /*width: 15px;*/
+   flex-grow: 0.3;
+     }
+ .b2 {
+   /*width: 30px;*/
+   flex-grow: 0.6;
+   margin-left: 3px;
+ }
+ .b3 {
+  /* width: 45px;*/
+   flex-grow: 1.1;
+   margin-left: 3px;
+ }
+ .b4 {
+   /*width: 80px;*/
+   flex-grow: 2;
+   margin-left: 3px;
+ }
+ .b5 {
+   /*width: 165px;*/
+   flex-grow: 4;
+   margin-left: 3px;
+ }

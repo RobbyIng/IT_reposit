@@ -1,0 +1,33 @@
+.block-series {
+  position: relative;
+  max-width: 1400px;
+  height: 300px;
+  background: aqua;
+  margin: 30px auto;
+}
+.bloc{
+  position: absolute;
+  top: 30px;
+  height: 250px;
+  background: white;
+}
+.b1{
+  left: 3%;
+  width: 5%;
+}
+.b2{
+  left: 9%;
+  width: 10%;
+}
+.b3{
+  left: 20%;
+  width: 15%;
+}
+.b4{
+  left: 36%;
+  width: 25%;
+}
+.b5{
+  left: 62%;
+  width: 35%;
+}
