@@ -1,0 +1,43 @@
+.picture{
+    background-image: url(shl.png);
+    display: flex;
+    margin: 160px auto;
+}
+.transblock{
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.pixel{
+    text-transform: uppercase;
+    font: 80px serif;
+    letter-spacing: 15px;
+    margin-left: 10px;
+}
+.bigBlock{
+    position: relative;
+    width: 120px;
+    height: 120px;
+    background-color:transparent;
+    margin: 20px;
+}
+.blackbox{
+    width: 40px;
+    height: 40px;
+    background-color:black;
+}
+#b2{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: flex;
+}
+#b3{
+   margin: auto;
+}
+#b5{ 
+    position: absolute;
+    bottom: 0px;
+    right: 1px;
+    display: flex;
+}
