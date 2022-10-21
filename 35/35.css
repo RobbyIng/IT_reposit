@@ -1,4 +1,52 @@
 .picture{
-    background-image: url(girl.jfif);
-    margin-left: auto;
+    width: 200px;
+    height: 270px;
+    background-image: url(girl.jpg);
+    background-size: contain;
+    margin-right: auto;
+    float: left;
+    padding: 20px;
+}
+.blueblock{
+    margin: auto;
+    position: absolute;
+    left: 300px;
+    top: 100px;
+    max-width: 310px;
+    background-color: blue;
+    color: white;
+    font-size: 40px;
+    padding: 5px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.blueline{
+    position: absolute;
+    right: 150px;
+    top: 125px;
+    width: 310px;
+    height: 5px;
+    background-color: blue;
+}
+.redblock{
+    position: absolute;
+    left: 400px;
+    top: 200px;
+    max-width: 300px;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: bold;
+   text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.redline{
+    position: absolute;
+    right: 150px;
+    top: 220px;
+    width: 200px;
+    height: 5px;
+    background-color: red;
 }
