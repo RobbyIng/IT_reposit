@@ -1,0 +1,24 @@
+div{
+    width: 300px;
+    min-height: 50px;
+    background-color: rgb(213, 167, 167);
+}
+.first{
+    padding: 10px;
+    background-color: lightgray;
+    border-radius: 5px;
+    display: inline; 
+    font-size: 20px;
+    line-height: 0px;
+    color: orange;
+    text-align: center;
+    border-color: transparent;
+}
+.first nav{
+    color: darkgray;
+    writing-mode: vertical-lr;
+    display: inline-block; 
+    letter-spacing: normal;
+    padding-left: 10px;
+    padding-right: 10px;
+ }
