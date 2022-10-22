@@ -10,11 +10,11 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, ul, li{
     vertical-align: baseline;
 }
 body{
-    position: absolute;
-    margin: 10px;
-    width: 500px;
-    height: 150px;
+    position: relative;
+    width: 700px;
+    height: 180px;
     border: 2px rgb(202, 70, 90) solid;
+    margin: 50px auto;
 }
 h1{
     position: absolute;
@@ -25,4 +25,14 @@ h1{
     color: white;
     background-color: rgb(202, 70, 90);
     padding: 10px;
+}
+div{
+    position: absolute;
+    top: 65px;
+    left:0;
+    line-height: 30px;
+   }
+a{
+    font: 18px sans-serif;
+    padding: 7px;
 }
