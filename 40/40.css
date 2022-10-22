@@ -1,24 +1,24 @@
-div{
-    width: 300px;
-    min-height: 50px;
-    background-color: rgb(213, 167, 167);
-}
 .first{
+    position: absolute;
+    margin: 30px auto;
     padding: 10px;
     background-color: lightgray;
     border-radius: 5px;
-    display: inline; 
-    font-size: 20px;
-    line-height: 0px;
-    color: orange;
-    text-align: center;
-    border-color: transparent;
+    color: rgb(202, 137, 15);
 }
-.first nav{
-    color: darkgray;
-    writing-mode: vertical-lr;
+.first a{
     display: inline-block; 
-    letter-spacing: normal;
-    padding-left: 10px;
-    padding-right: 10px;
+    color: rgb(85, 84, 84);
+    transform:rotate(90deg);
+ }
+ .first:hover{
+    width: 10%;
+    background: rgb(85, 84, 84);
+    background:linear-gradient(-50deg, transparent 15px,  rgb(85, 84, 84) 0) bottom right,
+     linear-gradient(-130deg, transparent 15px,  rgb(85, 84, 84) 0) top right;
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+ }
+ .first:hover>a{
+    color: lightgray;
  }
