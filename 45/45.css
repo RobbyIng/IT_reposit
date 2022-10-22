@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, ul, li{
+                 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+body{
+    margin: 10px;
+    width: 500px;
+    height: 150px;
+    border: 2px rgb(202, 70, 90) solid;
+}
+h1{
+    position: relative;
+    top: 0;
+    left:0;
+    font: 24px bold serif;
+    color: white;
+    background-color: rgb(202, 70, 90);
+}
