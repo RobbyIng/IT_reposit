@@ -10,16 +10,19 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, ul, li{
     vertical-align: baseline;
 }
 body{
+    position: absolute;
     margin: 10px;
     width: 500px;
     height: 150px;
     border: 2px rgb(202, 70, 90) solid;
 }
 h1{
-    position: relative;
+    position: absolute;
     top: 0;
     left:0;
-    font: 24px bold serif;
+    font: 24px sans-serif;
+    font-weight: bold;
     color: white;
     background-color: rgb(202, 70, 90);
+    padding: 10px;
 }
