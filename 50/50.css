@@ -3,7 +3,7 @@ div{
     max-width: 700px;
     margin: 50px auto;
     background-color: slategrey;
-    border-bottom: 2px solid orange;
+    border-bottom: 4px solid orange;
 }
 .nav li { 
     display: inline; 
