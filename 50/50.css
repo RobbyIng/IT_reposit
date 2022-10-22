@@ -1,20 +1,21 @@
-
-* {
-    box-sizing: border-box;
-}
-html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, ul, li{
-                 
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-}
-body{
+div{
     position: relative;
-    width: 700px;
-    height: 180px;
+    max-width: 700px;
     margin: 50px auto;
     background-color: slategrey;
     border-bottom: 2px solid orange;
+}
+.nav li { 
+    display: inline; 
+}
+ul.nav a {
+    display: inline-block;
+    padding:10px;
+    padding-top: 20px;
+    text-decoration: none;
+    color: #f4f4f4;
+    text-align: center;
+}
+ul.nav a:hover{
+    color: orange;
 }
