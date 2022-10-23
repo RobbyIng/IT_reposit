@@ -1,0 +1,38 @@
+h2{
+    margin: 10px auto;
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+table{
+    table-layout: fixed;
+    width:900px; 
+    margin: auto;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border-spacing: 15px; 
+    text-align: left;
+}
+th{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+td{
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    text-align: left;
+}
+ol{
+    padding: 0;
+    margin-left: 15px;
+}
+#zag{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.text{
+    padding: 1em;
+    text-align:center;
+}
