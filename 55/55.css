@@ -35,7 +35,7 @@ li {
     margin: 3px;
     border-right: 1px solid rgba(234, 234, 234, .3);
 	border-bottom: 1px solid rgba(234, 234, 234, .3);
-  /*  box-shadow: 1px 1px 0 1px;*/
+    box-shadow: 1px 1px 0 1px;
 }
 li::after {
     position:absolute;
