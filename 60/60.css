@@ -1,0 +1,40 @@
+div{
+    position: relative;
+    width: 500px;
+    height: 100px;
+    margin: 50px auto;
+    padding: 15px;
+    background-color: red;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px grey 5px;
+}
+h2{
+    position: absolute;
+    width: 96%;
+    height: 86%;
+    border: 2px dashed white;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h2::selection{
+    color: black;
+    background-color: orange;
+}
+/*div::after {
+    position:relative;
+	top: -5px;
+	left: -5px;
+	width: 510px;
+    height: 110px;
+    color: red;
+    display: none;
+}
+div:hover::after{
+     display: block;
+}
