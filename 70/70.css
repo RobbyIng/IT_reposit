@@ -5,13 +5,17 @@
     margin: 50px auto;
     border: 2px solid black;
     font-family: sans-serif;
+    text-align: center;
 }
-.invisible{
+.visi-plus{
+    visibility: hidden;
+}
+.visi-minus{
     visibility: hidden;
 }
 h2{
     position: absolute;
-    width: 89%;
+    width: 90%;
     height: 5em;
     background-color: orange;
     margin: 20px auto;
@@ -21,49 +25,49 @@ h2{
     align-items: center;
     font-weight: normal;
 }
-#a{
-    position: absolute;
-    right: 20px; bottom: 30px;
-    border: 20px solid transparent;
-    border-top: 20px solid orange;
-}
 #b{
     position: absolute;
-    right: 78px; bottom: 30px;
+    right: 10px; bottom: 20px;
     border: 20px solid transparent;
     border-top: 20px solid orange;
 }
-.visible{
-    display: table;
+#a{
     position: absolute;
+    right: 78px; bottom: 20px;
+    border: 20px solid transparent;
+    border-top: 20px solid orange;
+}
+#minus{
+    font-size: 24px;
+    position: absolute;
+    width: 30px;
     bottom: 0;
-    right: 20px;
-    font-weight: bold;
-    font-size: 30px;
-    text-align: center;
-}
-.visible #plus{
-    display: table-cell;
+    right: 10px;
     padding: 3px;
-    background-color: lightgrey;
-    color: white;
-    width: 1em;
-    border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px;
-}
-.visible #null{
-    display: table-cell;
-    padding: 3px;
-    color: gray;
-}
-.visible #minus{
-    display: table-cell;
-    padding: 3px;
-    width: 1em;
     background-color: lightgrey;
     color: white;
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
+}
+#null{
+    font-size: 24px;
+    position: absolute;
+    width: 20px;
+    bottom: 0;
+    right: 50px;
+    color: gray;
+}
+#plus{
+    position: absolute;
+    font-size: 24px;
+    width: 30px;
+    bottom: 0;
+    right: 80px;
+    padding: 3px;
+    background-color: lightgrey;
+    color: white;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
 }
 h4{
     position: absolute;
@@ -71,12 +75,15 @@ h4{
     bottom: 0;
     margin: 0;
 }
-.visible #plus:hover{
+#plus:hover{
     background-color: blue;
 }
-.visible #minus:hover{
+#minus:hover{
     background-color: red;
 }
-.visible:hover + .invisible{
+#plus:hover + .visi-plus{
+    visibility:visible;
+}
+#minus:hover + .visi-minus{
     visibility:visible;
 }
