@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+html, body{
+    margin:0;
+    padding:0;
+}
+.boxik{
+    position: relative;
+    width: 400px;
+    height: 300px;
+    margin: 50px auto;
+    padding: 5px;
+    background-color: lightgray;
+}
+.grid-container {
+    height:100%;
+    display: grid;
+    grid-template-areas: "header header header header header"
+                         "clas clas . Tags Tags"
+                         "line line . line line"
+                         "disp numb  . parag numb"
+                         "line line . line line"
+                         "type numb . deco numb"
+                         "line line . line line"
+                         "pix numb . eleg numb"
+                         "line line . line line"
+                         "grun numb . ser numb"
+                         "footer footer footer footer footer";
+    grid-template-columns: 1fr 20px 10px 1fr 20px;
+    grid-template-rows: 50px 30px 3px 1fr 3px 1fr 3px 1fr 3px 1fr 20px;
+}
+.header { grid-area: header; background-color:grey; color: white;border: 2px solid black;}
+.clas { grid-area: clas; color: black; background-color: lightgray}
+.Tags { grid-area: Tags; color: black; background-color: lightgray}
+.line { grid-area: line; background-color: gray; }
+.disp { grid-area: disp; color: black; background-color: lightgray}
+.numb { grid-area: numb; color: white; background-color: gray; }
+.parag { grid-area: parag; color: black; background-color: lightgray}
+.type { grid-area: type; color: black; background-color: lightgray}
+.deco { grid-area: deco; color: black; background-color: lightgray}
+.pix { grid-area: pix; color: black; background-color: lightgray}
+.eleg { grid-area: eleg; color: black; background-color: lightgray}
+.grun { grid-area: grun; color: black; background-color: lightgray}
+.ser { grid-area: ser; color: black; background-color: lightgray}
+.footer { grid-area: footer; color: slategray; background-color: lightgray}
