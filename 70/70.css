@@ -1,0 +1,82 @@
+.main{
+    position: relative;
+    width: 500px;
+    height: 200px;
+    margin: 50px auto;
+    border: 2px solid black;
+    font-family: sans-serif;
+}
+.invisible{
+    visibility: hidden;
+}
+h2{
+    position: absolute;
+    width: 89%;
+    height: 5em;
+    background-color: orange;
+    margin: 20px auto;
+    text-align: left;
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+    font-weight: normal;
+}
+#a{
+    position: absolute;
+    right: 20px; bottom: 30px;
+    border: 20px solid transparent;
+    border-top: 20px solid orange;
+}
+#b{
+    position: absolute;
+    right: 78px; bottom: 30px;
+    border: 20px solid transparent;
+    border-top: 20px solid orange;
+}
+.visible{
+    display: table;
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+.visible #plus{
+    display: table-cell;
+    padding: 3px;
+    background-color: lightgrey;
+    color: white;
+    width: 1em;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.visible #null{
+    display: table-cell;
+    padding: 3px;
+    color: gray;
+}
+.visible #minus{
+    display: table-cell;
+    padding: 3px;
+    width: 1em;
+    background-color: lightgrey;
+    color: white;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+h4{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin: 0;
+}
+.visible #plus:hover{
+    background-color: blue;
+}
+.visible #minus:hover{
+    background-color: red;
+}
+.visible:hover + .invisible{
+    visibility:visible;
+}
