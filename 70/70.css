@@ -25,19 +25,19 @@ h2{
     align-items: center;
     font-weight: normal;
 }
-#b{
+.triangle_plus{
     position: absolute;
-    right: 10px; bottom: 20px;
-    border: 20px solid transparent;
-    border-top: 20px solid orange;
+    right: 85px; bottom: 33px;
+    border: 10px solid transparent;
+    border-top: 18px solid orange;
 }
-#a{
+.triangle_minus{
     position: absolute;
-    right: 78px; bottom: 20px;
-    border: 20px solid transparent;
-    border-top: 20px solid orange;
+    right: 20px; bottom: 33px;
+    border: 10px solid transparent;
+    border-top: 18px solid orange;
 }
-#minus{
+.minus_button{
     font-size: 24px;
     position: absolute;
     width: 30px;
@@ -49,7 +49,7 @@ h2{
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
 }
-#null{
+.votes_count{
     font-size: 24px;
     position: absolute;
     width: 20px;
@@ -57,7 +57,7 @@ h2{
     right: 50px;
     color: gray;
 }
-#plus{
+.plus_button{
     position: absolute;
     font-size: 24px;
     width: 30px;
@@ -75,15 +75,15 @@ h4{
     bottom: 0;
     margin: 0;
 }
-#plus:hover{
+.plus_button:hover{
     background-color: blue;
 }
-#minus:hover{
+.minus_button:hover{
     background-color: red;
 }
-#plus:hover + .visi-plus{
+.plus_button:hover + .visi-plus{
     visibility:visible;
 }
-#minus:hover + .visi-minus{
+.minus_button:hover + .visi-minus{
     visibility:visible;
 }
