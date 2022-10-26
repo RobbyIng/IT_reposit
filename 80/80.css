@@ -1,0 +1,14 @@
+.main{
+    width: 300px;
+    height: 300px; 
+    position: relative;
+    margin: 200px auto;
+    padding: 0;
+}
+footer{
+    font-family: sans-serif;
+    font-size: 16px;
+    position: absolute; 
+    bottom: -20px;
+    right: 0px;
+}
