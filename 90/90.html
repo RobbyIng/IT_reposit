@@ -10,19 +10,15 @@
 <body>
     <div class="main">
     <div class="sidebar"></div>
-    <button class="OperatorHelpButton"><h3>Чат с оператором</h3></button>
-    <div class="modalWindowBox">
-        <div class="rectangle">
-            <img src="Support.PNG" alt="">
-            <h5>Могу ли я Вам чем-то помочь?</h5>
-            <button class="YesButtonModWind">Да</button>
-            <button class="NoButtonModWind">Нет</button>
-            <button class="closeModalWindow"><h6>+</h6></button>
-        </div>
-        <div class="triangle"></div>
-    </div>
-    <canvas class="window" id="myCanvas" width="280" height="100" style="background-color:transparent">
+    <button class="OperatorHelpButton"id="openModalWindow"><h3>Чат с оператором</h3></button>
+    <div class="modalWindowBox" id="modalWindowBoxID">        
+        <canvas class="window" id="myCanvas" width="280" height="100" style="background-color:transparent">
         Ваш браузер не поддерживает Canvas </canvas>
+        <!-- <script src="90.js"></script> -->
+        <button class="YesButtonModWind">Да</button>
+        <button class="NoButtonModWind">Нет</button>
+        <button class="closeModalWindow" id="toCloseModalWindow"><h6>+</h6></button>
+    </div>
     <script src="90.js"></script>
 </div>
 </body>

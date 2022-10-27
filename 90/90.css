@@ -35,41 +35,23 @@
 }
 .modalWindowBox{
     position: absolute;
-    width: 300px;
+    width: 290px;
     height: 100px;
     top: 1150px;
-    right: 50px;
-    border: 2px solid black;
+    right: 40px;
     margin: 0;
     padding: 0;
-}
-.rectangle{
-    position: absolute;
-    width: 280px;
-    height: 100px;
-}
-img{
-    float: left;
-    width: 100px;
-    height: 100px;
-    top: 0px;
-    left: 0px;
-    border-radius: 5px;
-}
-.rectangle > h5{
-    position: absolute;
-    top: 0px;
-    width: 140px;
-    left: 130px;
+    font-family: sans-serif;
+    visibility: hidden;
 }
 .closeModalWindow{
     position: absolute;
-    top: 0px;
-    right: 0px;
+    top: 6px;
+    right: 20px;
     width: 18px;
     height: 18px;
     background-color: transparent;
-    /* border-color: transparent; */
+    border-color: transparent; 
 }
 .closeModalWindow > h6{
     position: absolute;
@@ -79,28 +61,30 @@ img{
     font-size: 16px;
     margin: 0 auto;
     transform: rotate(45deg);
+    color: rgb(67, 65, 65)
 
 }
 .YesButtonModWind{
     position: absolute;
     top: 60px;
-    left: 130px;
+    left: 110px;
+    width: 40px;
+    background-color: lightgray;
+    border-color: transparent;
 }
 .NoButtonModWind{
     position: absolute;
     top: 60px;
-    left: 180px;
-}
-.triangle{
-    position: absolute;
-    right: 0px; bottom: 33px;
-    border: 14px solid transparent;
-    border-left: 15px solid rgb(208, 198, 179);
+    left: 160px;
+    width: 40px;
+    border-color: transparent;
+    background-color: lightgray;
 }
 .window{
     position: absolute;
-    top: 1300px;
-    right: 100px;
+    top: 0;
+    right: 0;
     box-shadow: 3px;
+    color: rgb(245, 242, 242);
 }
 
