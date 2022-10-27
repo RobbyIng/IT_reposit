@@ -1,0 +1,21 @@
+var canvas = document.getElementById("myCanvas"), 
+            context = canvas.getContext("2d");
+            context.beginPath();
+            context.fillStyle = "lightgray";
+            context.roundRect(3, 3, 260, 90, 5);
+            context.moveTo(260, 36);
+            context.lineTo(270, 48);
+            context.lineTo(260, 60);
+            context.fillStyle = "lightgray";
+            context.strokeStyle = "orange";
+            context.closePath();
+            context.fillStyle = "lightgray";
+            context.roundRect(10, 10, 250, 80, 5);
+            context.moveTo(260, 36);
+            context.lineTo(270, 48);
+            context.lineTo(260, 60);
+            context.fillStyle = "lightgray";
+            context.strokeStyle = "orange";
+            context.closePath();
+            context.stroke();
+            context.fill();

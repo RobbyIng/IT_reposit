@@ -54,6 +54,7 @@ img{
     height: 100px;
     top: 0px;
     left: 0px;
+    border-radius: 5px;
 }
 .rectangle > h5{
     position: absolute;
@@ -89,5 +90,17 @@ img{
     position: absolute;
     top: 60px;
     left: 180px;
+}
+.triangle{
+    position: absolute;
+    right: 0px; bottom: 33px;
+    border: 14px solid transparent;
+    border-left: 15px solid rgb(208, 198, 179);
+}
+.window{
+    position: absolute;
+    top: 1300px;
+    right: 100px;
+    box-shadow: 3px;
 }
 
