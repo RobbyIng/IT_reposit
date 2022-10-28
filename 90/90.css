@@ -42,7 +42,7 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    visibility: hidden;
+    display: none !important;
 }
 .closeModalWindow{
     position: absolute;
