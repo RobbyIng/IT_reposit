@@ -44,14 +44,15 @@ window.addEventListener('load', function() {context.drawImage(img, 10, 10, 80, 8
 
               // let element = document.getElementById('openModalWindow');
               // element.background = "rgb(245, 242, 242)";
-              src="https://code.jquery.com/jquery-3.5.1.min.js"
-              $(document).ready(function(){
-              $('openModalWindow').on('mouseover', '.openModalWindow', function(){
-              $('openModalWindow').css('color','red'); });
-              });
+
+              // $(document).ready(function(){
+              // $('openModalWindow').on('mouseover', '.openModalWindow', function(){
+              // $('openModalWindow').css('color','red'); });
+              // });
+
 //  function openModalWindow() {document.getElementById("modalWindowBoxID").visibility = "visible";}
   //   openModalWindow:onclick = function() {modalWindowBoxID.visibility="visible";}
-    // $('.OperatorHelpButton').click(function() {
-    //     $(this).parent('.modalWindowBox').visibility('visible');
-    //  });
+     $('.OperatorHelpButton').click(function() {
+         $(this).parent('.modalWindowBox').visibility('visible');
+      });
 // function toCloseModalWindow() {document.getElementById("modalWindowBoxID").visibility = "hidden";}
