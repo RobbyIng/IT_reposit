@@ -32,27 +32,10 @@ window.addEventListener('load', function() {context.drawImage(img, 10, 10, 80, 8
             context.font = "12px sans-serif";
             context.fillText("Могу ли я Вам чем-то", 100, 30);
             context.fillText("помочь?", 100, 50);
-            // object.onclick = function(){myScript};
-            // $(document).ready(function(){
-            // $("openModalWindow").click(function(){$(modalWindowBoxID).show();});
-            
-            //  var element = document.getElementById('openModalWindow');
-            //  element.click(function() {
-            //  var toopenwindow = document.getElementById('modalWindowBoxID');
-            //  toopenwindow.display = "block";
-            //  });
 
-              // let element = document.getElementById('openModalWindow');
-              // element.background = "rgb(245, 242, 242)";
-
-              // $(document).ready(function(){
-              // $('openModalWindow').on('mouseover', '.openModalWindow', function(){
-              // $('openModalWindow').css('color','red'); });
-              // });
-
-//  function openModalWindow() {document.getElementById("modalWindowBoxID").visibility = "visible";}
-  //   openModalWindow:onclick = function() {modalWindowBoxID.visibility="visible";}
-     $('.OperatorHelpButton').click(function() {
-         $(this).parent('.modalWindowBox').visibility('visible');
-      });
-// function toCloseModalWindow() {document.getElementById("modalWindowBoxID").visibility = "hidden";}
+              document.getElementById("openModalWindow").onclick=function(){
+                document.getElementById("modalWindowBoxID").style.display = "block";
+                };
+              document.getElementById("toCloseModalWindow").onclick=function(){
+                document.getElementById("modalWindowBoxID").style.display = "none";
+                };
