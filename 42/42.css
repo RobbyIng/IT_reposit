@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.main{
+   width: 630px;
+   height: 330px;
+   font-family: sans-serif;
+   display: grid; 
+   margin: 200px auto;
+   grid-template-areas: "header header header"
+                        "areaLink mainList addList"
+                        "footer footer footer";
+    grid-template-columns: repeat(3, 210px);
+    grid-template-rows: repeat(3, 100px);
+}
+ul li::before{
+    color: rgb(136, 100, 169);
+}
+.header{
+grid-area: header;
+margin-left: 40px;
+text-align: left;
+display: flex;
+align-items: flex-end;
+}
+.areaLink{
+    grid-area: areaLink;
+    font-size: 20px;
+    color: rgb(136, 100, 169);
+}           
+img{
+    float: left;
+    width: 60px;
+    height: 50px;   
+}   
+.boxForLink{
+    height: 95%;
+    border: 1px solid rgb(136, 100, 169);
+    border-radius: 5px;
+    padding-left: 20px;
+    display: flex;
+    text-align: center;
+    text-align: left;
+    align-items: center;
+}    
+.mainList{
+    grid-area:mainList;
+    font-size: 16px;
+    line-height: 22px;
+}
+.addList{
+    grid-area: addList;
+    font-size: 16px;
+    line-height: 22px;
+}
+ul {
+    list-style: none; /* Remove default bullets */
+    margin: 0;
+  } 
+ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: rgb(136, 100, 169); /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }
+.footer{
+    grid-area: footer;
+    text-align: right;
+    font-size: 16px;
+}
