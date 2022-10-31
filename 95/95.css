@@ -1,0 +1,11 @@
+body{
+    width: 600px;
+    height: 700px;
+    margin: 100 auto;
+    background-color: lightgrey;
+}
+.mainbox{
+    display: grid;
+    grid-template-areas: "sidebar content";
+    grid-template-columns: 120px 1fr;
+}
