@@ -1,0 +1,15 @@
+/* div{
+    width: 350px;
+    padding: 20px;
+    margin: 20px;
+    background: white;
+}
+img{
+    width: 100%;
+} */
+.box {
+    margin: 25px;
+    padding: 50px;
+    background-color: green;
+    color: white;
+   }
