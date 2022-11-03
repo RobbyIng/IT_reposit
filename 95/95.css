@@ -1,11 +1,39 @@
-.main{
+html, body, h5{
+    margin:0;
+    padding:0;
+}
+.mainBox{
+    font-family: sans-serif;
     width: 500px;
     height: 600px;
     margin: 100px auto;
     background-color: lightgrey;
-}
-.mainbox{
     display: grid;
-    grid-template-areas: "sidebar content";
-    grid-template-columns: 120px 1fr;
+    grid-template-areas: "header header"
+                         "sidebar content"
+                         "footer footer";
+    grid-template-columns: 120px 380px;
+    grid-template-rows: 70px 1fr 30px;   
+
+}
+.header>h1{
+    font-size: 24px;
+    font-weight: normal;
+}
+.header{
+    grid-area: header;
+    border: 2px solid blue;
+}
+.sidebar{
+    grid-area: sidebar;
+    border: 2px solid black;
+}
+.content{
+    grid-area: content;
+    border: 2px solid red;
+}
+.footer{
+    margin: 0;
+    grid-area: footer;
+    border: 2px solid palegreen;
 }
