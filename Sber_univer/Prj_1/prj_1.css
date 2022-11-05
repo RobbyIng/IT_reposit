@@ -2,12 +2,16 @@ body{
     font-family: 'Raleway', sans-serif;
     color: #213053;
     margin: 0;
-    padding: 20px;
+    padding: 0 20px 20px 20px;
 }
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    background-color: white;
+    top: 0;
+    z-index: 1;
 }
 .header__logo{
     height: 30px;
@@ -38,9 +42,15 @@ header a {
   .about__info {
     max-width: 550px;
   }
+  @keyframes rotation{
+    100% {transform: rotate(1turn);}
+  }
   .about__sun-image {
     width: 100px;
     height: 100px;
+    position: absolute;
+    animation: rotation 10s infinite linear;
+    
   }
   .about {
     display: flex;
