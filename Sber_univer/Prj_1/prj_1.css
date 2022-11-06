@@ -1,3 +1,72 @@
+/* Планшеты */
+@media (max-width: 1024px) {
+  .about {
+      padding: 115px 20px;
+  }
+
+  .about h1 {
+      font-size: 36px;
+      line-height: 40px;
+  }
+
+  .about__image {
+      width: 280px;
+  }
+
+  .about__sun-image {
+      width: 75px;
+      height: 75px;
+  }
+}
+/* Мобильные устройства */
+@media (max-width: 720px) {
+  header {
+      padding: 10px;
+  }
+
+  .header__logo {
+      height: 20px;
+  }
+
+  header a {
+      margin-right: 10px;
+  }
+
+  .about {
+      flex-direction: column-reverse;
+      padding: 50px 10px;
+  }
+
+  .about h1 {
+      font-size: 36px;
+      line-height: 40px;
+  }
+
+  .about__image {
+      width: 280px;
+  }
+
+  .about__sun-image {
+      width: 75px;
+      height: 75px;
+  }
+
+  .form {
+      padding: 50px 10px;
+  }
+
+  .form h1 {
+      font-size: 36px;
+  }
+
+  footer {
+      padding: 50px 10px;
+  }
+
+  .footer__container {
+      flex-direction: column;
+  }
+}
 body{
     font-family: 'Raleway', sans-serif;
     color: #213053;
@@ -36,11 +105,17 @@ header a {
     box-shadow: 0 16px 36px rgb(52 213 68 / 22%);
     padding: 15px;
   }
+  .about__images {
+    animation-duration: 2s; /* don't forget to set a duration! */
+    animation-iteration-count:1;
+  }
   .about__image {
     width: 500px;
   }
   .about__info {
     max-width: 550px;
+    animation-duration: 2s; /* don't forget to set a duration! */
+    animation-iteration-count:1;
   }
   @keyframes rotation{
     100% {transform: rotate(1turn);}
