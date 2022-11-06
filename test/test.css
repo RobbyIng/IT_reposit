@@ -1,15 +1,19 @@
-/* div{
-    width: 350px;
-    padding: 20px;
-    margin: 20px;
-    background: white;
+.picture {
+    height: 1200px;
+    width: 1200px;
+    margin: 100px auto;
+        overflow: hidden;
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+    border: 2px solid black;  
 }
-img{
-    width: 100%;
-} */
-.box {
-    margin: 25px;
-    padding: 50px;
-    background-color: green;
-    color: white;
-   }
+.pic{
+    max-width: 100%;
+    object-fit:fill;
+    transition: transform 1s, max-width 1s;
+}
+.pic:hover{
+    transform: rotate(-45deg);
+    max-width: 80%;
+}
