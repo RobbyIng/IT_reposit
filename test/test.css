@@ -1,19 +1,17 @@
 .picture {
-    height: 1200px;
+    height: 1500px;
     width: 1200px;
-    margin: 100px auto;
-        overflow: hidden;
-        /* display: flex;
-        justify-content: center;
-        align-items: center; */
+    margin: 500px auto;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: 2px solid black;  
 }
 .pic{
-    max-width: 100%;
-    object-fit:fill;
-    transition: transform 1s, max-width 1s;
+    transition: transform 1s;
+    transform:scale(1.2);
 }
 .pic:hover{
-    transform: rotate(-45deg);
-    max-width: 80%;
+    transform: rotate(-20deg) scale(1);
 }
