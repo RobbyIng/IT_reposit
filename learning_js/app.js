@@ -90,3 +90,24 @@ if (isPrimeFun(number)) console.log(number);
 }
 
 showPrime(100);
+// let word_1 = "велосипед", word_2 = "полезен";
+// console.log(word_1 + " " + word_2);
+const word_1 = "люблю", word_2 = "читать";
+const result = word_1 + " " + word_2;
+console.log(result);
+
+// let name = "Всеволод";
+// let last_name = "\nСтарозубов";
+
+// last_name = last_name.trim();
+// console.log(name.trim().length+last_name.trim().length);
+
+let obj = {
+    name: "Анатолий",
+    last_name:"Максимов",
+    age: 38
+};
+
+console.log(parseInt("twenty"));
+
+console.log(parseFloat("100px"));console.log(parseFloat("10a")*parseFloat("7b")*parseFloat("3c"));
