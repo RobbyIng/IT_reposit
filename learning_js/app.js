@@ -108,6 +108,45 @@ let obj = {
     age: 38
 };
 
-console.log(parseInt("twenty"));
+// console.log(parseInt("twenty"));
 
-console.log(parseFloat("100px"));console.log(parseFloat("10a")*parseFloat("7b")*parseFloat("3c"));
+// console.log(parseFloat("100px"));console.log(parseFloat("10a")*parseFloat("7b")*parseFloat("3c"));
+// const price = "100px";
+// console.log(parseInt(price));
+// if (isNaN(parseInt(price))) console.log("Не число");
+// else if (parseInt(price) <= 0) console.log("Число не корректное");
+// else console.log(parseInt(price));
+
+// if (a > b && a > c) console.log(a);
+// else if (b > a && b > c) console.log(b);
+// else console.log(c);
+
+// let activity = "";
+
+// if (weather === "clear") {
+//     if (temp >= 25) activity = "golf";
+//     if (temp > 10 && temp <= 24) activity = "bowling";
+// }
+// else activity = "hiking";
+const task = "переименовать";
+
+switch (task){
+    case "удалить": console.log("delete");
+            break;
+    case "переименовать": console.log("rename");
+    break;
+    case "редактировать": console.log("edit");
+    break;
+    default: break;
+    }
+    switch (sign){
+        case "+": console.log(a+b);
+                break;
+        case "-": console.log(a-b);
+        break;
+        case "/": console.log(a/b);
+        break;
+        case "*": console.log(a*b);
+        break;
+        default: break;
+        }
