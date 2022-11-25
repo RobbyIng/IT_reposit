@@ -150,10 +150,35 @@
     //     break;
     //     default: break;
     //     }
-let word = "велосипед";
-    let result = "";
-    for (let i = 0; i < word.length; i++){
-    result = word[i]+result;
-    console.log(word);
-    }
-    word.toLowerCase() == result.toLowerCase() ? console.log("Слово является палиндромом!") : console.log("Слово не является палиндромом!");
+// let word = "велосипед";
+//     let result = "";
+//     for (let i = 0; i < word.length; i++){
+//     result = word[i]+result;
+//     console.log(word);
+//     }
+//     word.toLowerCase() == result.toLowerCase() ? console.log("Слово является палиндромом!") : console.log("Слово не является палиндромом!");
+
+
+// let arr = [];
+// arr[5] = 5;
+// console.log(arr);
+
+// console.log(String([1, true, [], {}]));
+
+// function makeCounter() {
+//     let count = 0;
+  
+//     return function() {
+//       return count++;
+//     }
+//   }
+  
+//   const counter = makeCounter();
+  
+//   counter()
+//   console.log(counter());
+
+array = [1, 2, 3, 4];
+for (let index = 0; index < array.length; index++) {
+    console.log(array[index]);
+   }
