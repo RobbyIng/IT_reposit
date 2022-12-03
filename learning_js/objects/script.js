@@ -79,9 +79,9 @@
 //exercise 6
 
 let priceRanges = [
-{label: '$', toltip: 'Inexpensive', minPerPerson: 0, maxPerPerson: 10},
-{label: '$$', toltip: 'Moderate', minPerPerson: 11, maxPerPerson: 20},
-{label: '$$$', toltip: 'Expensive', minPerPerson: 20, maxPerPerson: 50}
+{Note: '$', toltip: 'Inexpensive', minPerPerson: 0, maxPerPerson: 10},
+{Note: '$$', toltip: 'Moderate', minPerPerson: 11, maxPerPerson: 20},
+{Note: '$$$', toltip: 'Expensive', minPerPerson: 20, maxPerPerson: 50}
 ];
 let restaurants = [
   {avaragePerPerson: 5}
