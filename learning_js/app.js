@@ -178,7 +178,13 @@
 //   counter()
 //   console.log(counter());
 
-array = [1, 2, 3, 4];
-for (let index = 0; index < array.length; index++) {
-    console.log(array[index]);
-   }
+// array = [1, 2, 3, 4];
+// for (let index = 0; index < array.length; index++) {
+//     console.log(array[index]);
+//   
+// console.log((10/"2"));
+
+// alert("12" / 0);
+
+let a;
+console.log(typeof typeof 1);
