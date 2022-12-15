@@ -28,11 +28,33 @@
 
 //2.4
 
-const tasks = [
-    {title: "Умыться" , completed: true},
-    {title: "Сделать зарядку" , completed: true},
-    {title: "Приготовить завтрак" , completed: false}
-]
+// const tasks = [
+//     {title: "Умыться" , completed: true},
+//     {title: "Сделать зарядку" , completed: true},
+//     {title: "Приготовить завтрак" , completed: false}
+// ]
 
-const titles = tasks.map(e => e.title);
-console.log(titles);
+// const titles = tasks.map(e => e.title);
+// console.log(titles);
+
+//2.5  
+
+// const values = ["Строка",true,"Числа","Объект","Не число", false, "Не объект"];
+// const result = [];
+// const startIndex = values.findIndex(e => e === true || e === false);
+// let endIndex = 0;
+// for (let i = values.length-1; i >=0; i--){
+//     if (typeof(values[i]) === 'boolean') {endIndex = i; break;}
+// }
+
+// for (let item = startIndex; item <= endIndex; item++){
+//     result.push(values[item]);
+// }
+// console.log(result);
+
+//2.6
+
+const values = [10, 185, 11200, 9800];
+
+let result = values.find(e => ((e/1000 >= 1) && (e/1000 <= 10))); 
+console.log(typeof(result) === "number");
