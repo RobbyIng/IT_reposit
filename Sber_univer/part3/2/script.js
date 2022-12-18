@@ -141,10 +141,36 @@
 
 // 2.14
 
-const numbers = [10, 20, 33, 55, 100];
-let statement = false;
-const sum = numbers.reduce(function(previousValue, currentItem, currentIndex) {
+// const numbers = [10, 20, 3, 5, 1];
+// let statement = false;
+// const sum = numbers.reduce(function(previousValue, currentItem, currentIndex) {
     
-    if ((previousValue + currentItem > 50) && !statement) {statement = true; console.log(currentIndex);}
-    return previousValue + currentItem
-  }, 0)
+//     if ((previousValue + currentItem > 50) && !statement) {statement = true; console.log(currentIndex);}
+//     return previousValue + currentItem
+//   }, 0)
+
+//   if (!statement) console.log(numbers.length);
+// 2.15
+
+//   const values = ["100", "30", "Не число", "20", "Тоже не число"];
+
+// const sum = values.reduce(function(previousValue, currentItem, currentIndex) {
+//   console.log(!Number.isNaN(parseInt(currentItem)));
+//     if (!Number.isNaN(parseInt(currentItem))) return previousValue + parseInt(currentItem)
+//     return previousValue
+//   }, 0)
+
+//   console.log(sum);
+
+// 2.16
+ const array_1 = [2, 4, 7, 3, 8, 1], array_2 = [2, 5, 11, 3, 6, 1];
+
+ function intersection (arr1, arr2) {
+  const resArr = [];
+   for (let item of arr1) {
+if (arr2.some(e => e === item)) resArr.push (item);
+ }
+ return resArr.sort((a,b) => b-a);
+ }
+
+ console.log(intersection(array_1, array_2));
