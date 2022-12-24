@@ -19,7 +19,14 @@
 
 //1.10
 
-// const ticket = "helloBM-12234567:RU";
+
+const ticket = "helloBM-12234567:RU";
 // console.log(/hello/.test(ticket)); // false
 // // console.log(/\w{2}/-/\d{8}/.test(ticket));
-// console.log(/\w{2}-\d{8}/.test(ticket));
+ console.log(/\w{2}-\d{8}/.test(ticket));
+if (/\w{2}-\d{8}/.test(ticket)) { 
+    if (/\w{2}-\d{12}/.test(ticket)) console.log("Выбран билет на концерт")
+    else console.log("Выбран билет в театр")
+
+}
+else console.log("Билет не определен");
