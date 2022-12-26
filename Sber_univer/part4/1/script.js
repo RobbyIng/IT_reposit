@@ -32,7 +32,19 @@
 // console.log(obj);
 
 // 1.7
-const obj = document.querySelector(".content");
-// const conten = obj.querySelector("p")
-let text = obj.textContent.replace("p>", "b>");
-obj.innerHTML = text;
+// const obj = document.querySelector(".content");
+
+// let text = obj.innerHTML.replace(/p>/g, "b>");
+//  obj.innerHTML = text;
+// console.log(obj.innerHTML);
+
+// 1.8
+
+let sum = 0;
+const obj = document.getElementsByClassName("price");
+
+ for (let item of obj){
+    sum += +item.innerHTML
+ }
+
+ console.log(sum);
