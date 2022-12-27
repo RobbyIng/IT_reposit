@@ -40,11 +40,40 @@
 
 // 1.8
 
-let sum = 0;
-const obj = document.getElementsByClassName("price");
+// let sum = 0;
+// const obj = document.getElementsByClassName("price");
 
- for (let item of obj){
-    sum += +item.innerHTML
- }
+//  for (let item of obj){
+//     sum += +item.innerHTML
+//  }
 
- console.log(sum);
+//  console.log(sum);
+
+// 1.9
+
+// const obj = document.getElementsByClassName("numeric");
+
+//  for (let item of obj){
+//     if (+item.innerHTML < 0) item.innerHTML = `<b>${item.innerHTML}</b>`;
+//  }
+
+//  console.log(obj);
+
+// 2.0
+
+// let result = 0;
+
+// let elems = document.getElementsByClassName("numeric");
+// Array.from(elems).forEach(elem => result += +elem.innerHTML);
+
+//  console.log(result);
+
+//  2.1
+
+const cars = [];
+const obj = document.querySelector(".cars");
+const lis = obj.querySelectorAll("li")
+for (let item of lis){
+       cars.push(item.innerHTML);
+    }
+console.log(cars);
