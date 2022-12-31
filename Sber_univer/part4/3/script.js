@@ -44,16 +44,16 @@
 
 // 3.7
 
-const countries = ["Armenia", "Russia", "Germany", "France", "Georgia"];
+// const countries = ["Armenia", "Russia", "Germany", "France", "Georgia"];
 
-let selectArea2 = document.getElementById("countries");
-// let selectArea2 = document.querySelector("select");
+// let selectArea2 = document.getElementById("countries");
+// // let selectArea2 = document.querySelector("select");
 
-let tags = countries.map(t => {
-    const elem = document.createElement("option");
-    elem.innerText = t;
-    elem.value = t.slice(0, 2).toLowerCase();
-    return elem;
-});
+// let tags = countries.map(t => {
+//     const elem = document.createElement("option");
+//     elem.innerText = t;
+//     elem.value = t.slice(0, 2).toLowerCase();
+//     return elem;
+// });
 
-selectArea2.append(...tags);
+// selectArea2.append(...tags);
