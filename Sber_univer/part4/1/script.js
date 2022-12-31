@@ -23,7 +23,7 @@
 
 // console.log(obj);
 
-1.6
+// 1.6
 
 // const obj = document.querySelector(".links");
 // let text = `<a>${obj.textContent}</a>`;
