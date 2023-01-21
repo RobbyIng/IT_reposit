@@ -1,0 +1,19 @@
+.card {
+    width: 70px;
+    height: 70px;
+    border: 1px dotted #686262b2;
+    border-radius: 10px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper {
+    height: 100vh;
+    background-color: beige;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+}
